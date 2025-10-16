@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suara-Perunggu — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="profilPerunggu.png" alt="Logo" class="logo" />
+        <span class="brand-name">PERUNGGU</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="diskografi.html">Diskografi</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+
+      <div class="social-icons">
+        <a class="icon-social" href="https://www.instagram.com/perunggu_?igsh=MTYzd2U4cTVoeW0yNQ==" target="_blank" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.2 2.4.4.6.2 1.1.5 1.5 1 .4.4.8.9 1 1.5.2.5.4 1.2.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.9-.4 2.4-.2.6-.5 1.1-1 1.5-.4.4-.9.8-1.5 1-.5.2-1.2.4-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.2-2.4-.4a3.8 3.8 0 0 1-1.5-1c-.4-.4-.8-.9-1-1.5-.2-.5-.4-1.2-.4-2.4-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.9.4-2.4.2-.6.5-1.1 1-1.5.4-.4.9-.8 1.5-1 .5-.2 1.2-.4 2.4-.4 1.3-.1 1.7-.1 4.9-.1zM12 5.8a6.2 6.2 0 1 1 0 12.4 6.2 6.2 0 0 1 0-12.4zm5.8-1.4a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z"/></svg></a>
+        <a class="icon-social" href="https://youtube.com/@perungguofficial?si=dX43JkTzePT2YhGY" target="_blank" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M10 15l5.2-3L10 9v6zm12-3c0-1.6-.1-3.2-.3-4.8-.2-1.3-1.3-2.4-2.6-2.6C17.7 4.3 12 4.3 12 4.3s-5.7 0-7.1.3a3 3 0 0 0-2.6 2.6A38 38 0 0 0 2 12c0 1.6.1 3.2.3 4.8.2 1.3 1.3 2.4 2.6 2.6 1.4.3 7.1.3 7.1.3s5.7 0 7.1-.3a3 3 0 0 0 2.6-2.6c.2-1.6.3-3.2.3-4.8z"/></svg></a>
+        <a class="icon-social" href="https://open.spotify.com/artist/0NbKRRBuiIUwS9irPvi7wD?si=hfH_EDHiSweOmgIj-P4roQ" target="_blank" aria-label="Spotify"><svg viewBox="0 0 24 24"><path d="M12 0a12 12 0 1 0 0 24A12 12 0 0 0 12 0zm5.5 17.3c-.2.3-.5.4-.8.2-2.2-1.3-5-1.5-8.3-.6-.3.1-.6-.1-.7-.4-.1-.3.1-.6.4-.7 3.5-1 6.5-.8 8.9.6.3.2.4.6.2.9zm1.1-2.7c-.2.3-.6.4-.9.2-2.6-1.6-6.6-2-9.7-1-.4.1-.7-.1-.8-.5-.1-.4.1-.7.5-.8 3.5-1.1 7.8-.7 10.8 1.2.3.2.4.6.1.9zm.1-2.8c-3.1-1.9-8.2-2.1-11.2-1.1-.5.1-1-.1-1.1-.6-.1-.5.1-1 .6-1.1 3.5-1.1 9.2-.9 12.8 1.3.4.2.5.8.2 1.2-.2.4-.8.5-1.3.3"/></svg></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <h1>Contact</h1>
+    <p class="muted">Isi form berikut untuk mengirim pesan ke Perunggu. (Form hanya simulasi; pesan tidak dikirimkan ke email nyata.)</p>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <label for="name">Nama</label>
+      <input id="name" name="name" type="text" placeholder="Nama lengkap" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="contoh@email.com" required>
+
+      <label for="message">Pesan</label>
+      <textarea id="message" name="message" rows="6" placeholder="Tulis pesan..." required></textarea>
+
+      <div class="form-actions">
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div>© 2025 Suara-Perunggu</div>
+      <div class="footer-socials">
+        <span>@perunggu_</span> · <span>@perungguofficial</span> · <span>Perunggu on Spotify</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
